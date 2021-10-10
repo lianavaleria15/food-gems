@@ -11,11 +11,164 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!--Google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--font awesome link-->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <!--custom css link-->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Food Gems</title>
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FOOD GEMS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Basket</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div>
+        <!--image carousel here-->
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner carousel">
+            <div class="carousel-item active">
+              <img
+                src="./assets/images/food-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/food-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/food-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/food-4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--header here-->
+        <h1>Welcome to Food Gems!</h1>
+        <!--food card here-->
+        <div
+          class="
+            d-flex
+            flex-sm-column flex-lg-row
+            justify-content-center
+            food-card
+          "
+        >
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/images/food-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Food 1</h5>
+              <h6 class="card-title">£ 4.99</h6>
+              <p class="card-text">Salami foccacia with chilli sauce.</p>
+              <button class="btn btn-light" type="button">Add to basket</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/images/food-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Food 1</h5>
+              <h6 class="card-title">£ 4.99</h6>
+              <p class="card-text">Salami foccacia with chilli sauce.</p>
+              <button class="btn btn-light" type="button">Add to basket</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/images/food-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Food 1</h5>
+              <h6 class="card-title">£ 4.99</h6>
+              <p class="card-text">Salami foccacia with chilli sauce.</p>
+              <button class="btn btn-light" type="button">Add to basket</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <!--bootstrap bundle JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

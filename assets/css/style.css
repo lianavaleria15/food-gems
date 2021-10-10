@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.4;
+}
+
+.carousel {
+  height: 100vh;
+}
+
+.carousel-item {
+  object-fit: contain;
+}
+
+.main h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.food-card {
+  margin: 4rem;
+}
+
+.card {
+  margin: 2rem;
+}
